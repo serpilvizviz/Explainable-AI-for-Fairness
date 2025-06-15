@@ -42,13 +42,3 @@ Inspired by recent work, we implemented fooling experiments that minimize group 
 - SHAP and LIME can be manipulated easily,
 - GSHAP also remains vulnerable despite its theoretical strengths.
 
-## Folder Structure
-
-```bash
-.
-├── data/                # Preprocessed Adult and COMPAS datasets
-├── notebooks/           # Jupyter notebooks for subgroup analysis, fooling, and visualization
-├── models/              # Trained models for SHAP, LIME, and GSHAP analysis
-├── results/             # Output plots and evaluation reports
-├── gshap/               # Implementation of the extended GSHAP method
-└── README.md            # This file
